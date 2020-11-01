@@ -64,7 +64,6 @@ class _HomePageState extends State<HomePage> {
     if(recu != null){
       setState(() {
         feed = recu;
-        print(feed.items.length);
       });
     }
   }
